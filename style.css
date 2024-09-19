@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divLogo{
+    background-color: indigo;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.divImgLogo{
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.imgLogo{
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+}
+
+.divBemVindo{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imgBanner{
+    width: 100%;
+}
+
+.divH2{
+    text-align: center;
+    margin: 5vh;
+}
+
+.divArticle{
+    width: 130vh; 
+    line-height: 30px;
+    margin-bottom: 5vh;
+}
+
+table{
+    margin-top: 8vh;
+    width: 100%;
+}
+
+span{
+    background-color: rgb(162, 71, 207);
+}
+
+th{
+    background-color: rgb(117, 117, 117);
+    color: white;
+}
+
+tr:nth-last-of-type(odd){
+    background-color: rgb(162, 71, 207);
+}
+
+tr:nth-of-type(even){
+    background-color: indigo;
+}
+
+table{
+    color: white;
+    
+}
+
+td{
+    padding-left: 1vh;
+}
+
+footer{
+    background-color: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+
